@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  year: 
+  topic: MyString
+  description: MyText
+  expositor: one
+  congress: one
+
+two:
+  year: 
+  topic: MyString
+  description: MyText
+  expositor: two
+  congress: two

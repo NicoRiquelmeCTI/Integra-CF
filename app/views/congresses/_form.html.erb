@@ -1,0 +1,32 @@
+<%= form_with(model: congress, local: true) do |form| %>
+  <% if congress.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(congress.errors.count, "error") %> prohibited this congress from being saved:</h2>
+
+      <ul>
+      <% congress.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :year %>
+    <%= form.text_field :year, id: :congress_year %>
+  </div>
+
+  <div class="field">
+    <%= form.label :topics %>
+    <%= form.text_field :topics, id: :congress_topics %>
+  </div>
+
+  <div class="field">
+    <%= form.label :string %>
+    <%= form.text_field :string, id: :congress_string %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

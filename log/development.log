@@ -6,3 +6,494 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 224ms (Views: 12.1ms)
 
 
+Started GET "/" for 172.24.0.1 at 2019-03-31 18:45:52 +0000
+Cannot render console from 172.24.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+PG::ConnectionBad (could not translate host name "intranet-cf_postgres_1" to address: Name or service not known
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 172.24.0.1 at 2019-03-31 18:46:37 +0000
+Cannot render console from 172.24.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+PG::ConnectionBad (could not translate host name "intranet-cf_postgres_1" to address: Name or service not known
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (23.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1354239632645338740)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20190331184442)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(1354239632645338740)[0m
+Started GET "/" for 172.24.0.1 at 2019-03-31 18:49:04 +0000
+Cannot render console from 172.24.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+PG::ConnectionBad (could not translate host name "intranet-cf_postgres_1" to address: Name or service not known
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 172.24.0.1 at 2019-03-31 18:49:05 +0000
+Cannot render console from 172.24.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+PG::ConnectionBad (could not translate host name "intranet-cf_postgres_1" to address: Name or service not known
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 172.24.0.1 at 2019-03-31 18:49:05 +0000
+Cannot render console from 172.24.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+PG::ConnectionBad (could not translate host name "intranet-cf_postgres_1" to address: Name or service not known
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 172.24.0.1 at 2019-03-31 18:49:06 +0000
+Cannot render console from 172.24.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+PG::ConnectionBad (could not translate host name "intranet-cf_postgres_1" to address: Name or service not known
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1354239632645338740)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20190331184442)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (7.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "lastname" character varying, "gender" character varying, "nationality" character varying, "country" character varying, "state" character varying, "position" character varying, "mail" character varying, "phone" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190331184442"]]
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-03-31 18:54:35.542484"], ["updated_at", "2019-03-31 18:54:35.542484"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(1354239632645338740)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 172.24.0.1 at 2019-03-31 18:54:58 +0000
+Cannot render console from 172.24.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-5.1.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-5.1.5/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 29ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/user" for 172.24.0.1 at 2019-03-31 18:55:04 +0000
+Cannot render console from 172.24.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/user"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users" for 172.24.0.1 at 2019-03-31 18:55:14 +0000
+Cannot render console from 172.24.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 1482ms (Views: 1418.2ms | ActiveRecord: 10.1ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1354239632645338740)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCongresses (20190331195514)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(1354239632645338740)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1354239632645338740)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCongresses (20190331195514)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (14.5ms)[0m  [1m[35mCREATE TABLE "congresses" ("id" bigserial primary key, "year" integer, "topics" character varying, "string" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190331195514"]]
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateExpositors (20190331195609)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (10.5ms)[0m  [1m[35mCREATE TABLE "expositors" ("id" bigserial primary key, "degree" character varying, "web" character varying, "links" text, "suggest" character varying, "funding" character varying, "gestor" character varying, "expedition" character varying, "state" character varying, "new_gestor" character varying, "comments" text, "category" character varying, "assistant" character varying, "bio" text, "congress" character varying, "user_id" bigint, "congress_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_b987962c41"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+, CONSTRAINT "fk_rails_02ad63344f"
+FOREIGN KEY ("congress_id")
+  REFERENCES "congresses" ("id")
+)[0m
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE  INDEX  "index_expositors_on_user_id" ON "expositors"  ("user_id")[0m
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE  INDEX  "index_expositors_on_congress_id" ON "expositors"  ("congress_id")[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190331195609"]]
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateInvitations (20190331195634)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (7.3ms)[0m  [1m[35mCREATE TABLE "invitations" ("id" bigserial primary key, "type" character varying, "company" character varying, "funding" character varying, "expositor_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_ab05dac94e"
+FOREIGN KEY ("expositor_id")
+  REFERENCES "expositors" ("id")
+)[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE  INDEX  "index_invitations_on_expositor_id" ON "invitations"  ("expositor_id")[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190331195634"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateExpeditions (20190331195653)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "expeditions" ("id" bigserial primary key, "year" integer, "place" character varying, "participants" character varying, "responsable" character varying, "expositor_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_494477bf44"
+FOREIGN KEY ("expositor_id")
+  REFERENCES "expositors" ("id")
+)[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE  INDEX  "index_expeditions_on_expositor_id" ON "expeditions"  ("expositor_id")[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190331195653"]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreatePresentations (20190331195707)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "presentations" ("id" bigserial primary key, "year" integer, "topic" character varying, "description" text, "expositor_id" bigint, "congress_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_3186d06a03"
+FOREIGN KEY ("expositor_id")
+  REFERENCES "expositors" ("id")
+, CONSTRAINT "fk_rails_c19ed51adb"
+FOREIGN KEY ("congress_id")
+  REFERENCES "congresses" ("id")
+)[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE  INDEX  "index_presentations_on_expositor_id" ON "presentations"  ("expositor_id")[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE  INDEX  "index_presentations_on_congress_id" ON "presentations"  ("congress_id")[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190331195707"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(1354239632645338740)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users" for 172.24.0.1 at 2019-03-31 20:00:04 +0000
+Cannot render console from 172.24.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 1395ms (Views: 1351.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/expositors" for 172.24.0.1 at 2019-03-31 20:00:15 +0000
+Cannot render console from 172.24.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ExpositorsController#index as HTML
+  Rendering expositors/index.html.erb within layouts/application
+  [1m[36mExpositor Load (0.6ms)[0m  [1m[34mSELECT "expositors".* FROM "expositors"[0m
+  Rendered expositors/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 226ms (Views: 172.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/expositors/new" for 172.24.0.1 at 2019-03-31 20:00:18 +0000
+Cannot render console from 172.24.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ExpositorsController#new as HTML
+  Rendering expositors/new.html.erb within layouts/application
+  Rendered expositors/_form.html.erb (67.8ms)
+  Rendered expositors/new.html.erb within layouts/application (82.2ms)
+Completed 200 OK in 286ms (Views: 255.1ms | ActiveRecord: 3.6ms)
+
+

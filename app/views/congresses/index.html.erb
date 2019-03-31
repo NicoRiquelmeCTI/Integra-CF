@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Congresses</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Topics</th>
+      <th>String</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @congresses.each do |congress| %>
+      <tr>
+        <td><%= congress.year %></td>
+        <td><%= congress.topics %></td>
+        <td><%= congress.string %></td>
+        <td><%= link_to 'Show', congress %></td>
+        <td><%= link_to 'Edit', edit_congress_path(congress) %></td>
+        <td><%= link_to 'Destroy', congress, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Congress', new_congress_path %>

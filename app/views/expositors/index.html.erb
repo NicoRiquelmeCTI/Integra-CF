@@ -1,0 +1,57 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Expositors</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Degree</th>
+      <th>Web</th>
+      <th>Links</th>
+      <th>Suggest</th>
+      <th>Funding</th>
+      <th>Gestor</th>
+      <th>Expedition</th>
+      <th>State</th>
+      <th>New gestor</th>
+      <th>Comments</th>
+      <th>Category</th>
+      <th>Assistant</th>
+      <th>Bio</th>
+      <th>Congress</th>
+      <th>User</th>
+      <th>Congress</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @expositors.each do |expositor| %>
+      <tr>
+        <td><%= expositor.degree %></td>
+        <td><%= expositor.web %></td>
+        <td><%= expositor.links %></td>
+        <td><%= expositor.suggest %></td>
+        <td><%= expositor.funding %></td>
+        <td><%= expositor.gestor %></td>
+        <td><%= expositor.expedition %></td>
+        <td><%= expositor.state %></td>
+        <td><%= expositor.new_gestor %></td>
+        <td><%= expositor.comments %></td>
+        <td><%= expositor.category %></td>
+        <td><%= expositor.assistant %></td>
+        <td><%= expositor.bio %></td>
+        <td><%= expositor.congress %></td>
+        <td><%= expositor.user %></td>
+        <td><%= expositor.congress %></td>
+        <td><%= link_to 'Show', expositor %></td>
+        <td><%= link_to 'Edit', edit_expositor_path(expositor) %></td>
+        <td><%= link_to 'Destroy', expositor, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Expositor', new_expositor_path %>

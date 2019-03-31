@@ -1,0 +1,42 @@
+<%= form_with(model: expedition, local: true) do |form| %>
+  <% if expedition.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(expedition.errors.count, "error") %> prohibited this expedition from being saved:</h2>
+
+      <ul>
+      <% expedition.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :year %>
+    <%= form.text_field :year, id: :expedition_year %>
+  </div>
+
+  <div class="field">
+    <%= form.label :place %>
+    <%= form.text_field :place, id: :expedition_place %>
+  </div>
+
+  <div class="field">
+    <%= form.label :participants %>
+    <%= form.text_field :participants, id: :expedition_participants %>
+  </div>
+
+  <div class="field">
+    <%= form.label :responsable %>
+    <%= form.text_field :responsable, id: :expedition_responsable %>
+  </div>
+
+  <div class="field">
+    <%= form.label :expositor_id %>
+    <%= form.text_field :expositor_id, id: :expedition_expositor_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

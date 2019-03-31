@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  year: 
+  place: MyString
+  participants: MyString
+  responsable: MyString
+  expositor: one
+
+two:
+  year: 
+  place: MyString
+  participants: MyString
+  responsable: MyString
+  expositor: two

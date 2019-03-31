@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @expedition.year %>
+</p>
+
+<p>
+  <strong>Place:</strong>
+  <%= @expedition.place %>
+</p>
+
+<p>
+  <strong>Participants:</strong>
+  <%= @expedition.participants %>
+</p>
+
+<p>
+  <strong>Responsable:</strong>
+  <%= @expedition.responsable %>
+</p>
+
+<p>
+  <strong>Expositor:</strong>
+  <%= @expedition.expositor %>
+</p>
+
+<%= link_to 'Edit', edit_expedition_path(@expedition) %> |
+<%= link_to 'Back', expeditions_path %>

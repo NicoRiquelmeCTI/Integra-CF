@@ -15,7 +15,7 @@
 # gem 'pg'
 #
 default: &default
-  host: intranet-cf_postgres_1
+  host: repo-integracf_postgres_1
   username: postgres
   password:
   adapter: postgresql

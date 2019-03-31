@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @congress.year %>
+</p>
+
+<p>
+  <strong>Topics:</strong>
+  <%= @congress.topics %>
+</p>
+
+<p>
+  <strong>String:</strong>
+  <%= @congress.string %>
+</p>
+
+<%= link_to 'Edit', edit_congress_path(@congress) %> |
+<%= link_to 'Back', congresses_path %>

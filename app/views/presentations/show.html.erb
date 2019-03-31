@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @presentation.year %>
+</p>
+
+<p>
+  <strong>Topic:</strong>
+  <%= @presentation.topic %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @presentation.description %>
+</p>
+
+<p>
+  <strong>Expositor:</strong>
+  <%= @presentation.expositor %>
+</p>
+
+<p>
+  <strong>Congress:</strong>
+  <%= @presentation.congress %>
+</p>
+
+<%= link_to 'Edit', edit_presentation_path(@presentation) %> |
+<%= link_to 'Back', presentations_path %>

@@ -1,0 +1,97 @@
+<%= form_with(model: expositor, local: true) do |form| %>
+  <% if expositor.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(expositor.errors.count, "error") %> prohibited this expositor from being saved:</h2>
+
+      <ul>
+      <% expositor.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :degree %>
+    <%= form.text_field :degree, id: :expositor_degree %>
+  </div>
+
+  <div class="field">
+    <%= form.label :web %>
+    <%= form.text_field :web, id: :expositor_web %>
+  </div>
+
+  <div class="field">
+    <%= form.label :links %>
+    <%= form.text_area :links, id: :expositor_links %>
+  </div>
+
+  <div class="field">
+    <%= form.label :suggest %>
+    <%= form.text_field :suggest, id: :expositor_suggest %>
+  </div>
+
+  <div class="field">
+    <%= form.label :funding %>
+    <%= form.text_field :funding, id: :expositor_funding %>
+  </div>
+
+  <div class="field">
+    <%= form.label :gestor %>
+    <%= form.text_field :gestor, id: :expositor_gestor %>
+  </div>
+
+  <div class="field">
+    <%= form.label :expedition %>
+    <%= form.text_field :expedition, id: :expositor_expedition %>
+  </div>
+
+  <div class="field">
+    <%= form.label :state %>
+    <%= form.text_field :state, id: :expositor_state %>
+  </div>
+
+  <div class="field">
+    <%= form.label :new_gestor %>
+    <%= form.text_field :new_gestor, id: :expositor_new_gestor %>
+  </div>
+
+  <div class="field">
+    <%= form.label :comments %>
+    <%= form.text_area :comments, id: :expositor_comments %>
+  </div>
+
+  <div class="field">
+    <%= form.label :category %>
+    <%= form.text_field :category, id: :expositor_category %>
+  </div>
+
+  <div class="field">
+    <%= form.label :assistant %>
+    <%= form.text_field :assistant, id: :expositor_assistant %>
+  </div>
+
+  <div class="field">
+    <%= form.label :bio %>
+    <%= form.text_area :bio, id: :expositor_bio %>
+  </div>
+
+  <div class="field">
+    <%= form.label :congress %>
+    <%= form.text_field :congress, id: :expositor_congress %>
+  </div>
+
+  <div class="field">
+    <%= form.label :user_id %>
+    <%= form.text_field :user_id, id: :expositor_user_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :congress_id %>
+    <%= form.text_field :congress_id, id: :expositor_congress_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
